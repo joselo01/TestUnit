@@ -1,10 +1,10 @@
 <form (ngSubmit)="OnGuardarPossible(formNew)" #formNew="ngForm">
     <div class="row">
         <div class="col-6">
-            <input [(ngModel)]="possible.value" #value="ngModel" type="text" name="value" id="value" style="width: 100%;" placeholder="New Value" />
+            <input [(ngModel)]="possible.value" type="text" name="value" id="value" style="width: 100%;" placeholder="New Value" />
         </div>
         <div class="col-6">
-            <input [(ngModel)]="possible.description" type="text" name="description" #description="ngModel" id="description" style="width: 100%;" placeholder="New Description" />
+            <input [(ngModel)]="possible.description" type="text" name="description" id="description" style="width: 100%;" placeholder="New Description" />
         </div>
 
     </div>

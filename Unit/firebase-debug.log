@@ -1,0 +1,31 @@
+[debug] [2019-08-25T22:42:33.359Z] ----------------------------------------------------------------------
+[debug] [2019-08-25T22:42:33.361Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Jose\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-08-25T22:42:33.361Z] CLI Version:   7.2.2
+[debug] [2019-08-25T22:42:33.361Z] Platform:      win32
+[debug] [2019-08-25T22:42:33.361Z] Node Version:  v10.15.1
+[debug] [2019-08-25T22:42:33.363Z] Time:          Sun Aug 25 2019 17:42:33 GMT-0500 (GMT-05:00)
+[debug] [2019-08-25T22:42:33.363Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-25T22:42:33.425Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-25T22:42:33.426Z] > authorizing via signed-in user
+[debug] [2019-08-25T22:42:33.426Z] [iam] checking project unit-724d2 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-08-25T22:42:33.427Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-08-25T22:42:33.427Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-08-25T22:42:34.359Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-25T22:42:34.423Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/unit-724d2:testIamPermissions  
+
+[debug] [2019-08-25T22:42:38.255Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-25T22:42:38.257Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/unit-724d2  
+ 
+[debug] [2019-08-25T22:42:39.251Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'unit-724d2'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-08-25T22:42:39.259Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/unit-724d2/versions  
+
+[debug] [2019-08-25T22:46:06.234Z] Error: read ECONNRESET
+    at TLSWrap.onStreamRead (internal/stream_base_commons.js:111:27)
+[error] 
+[error] Error: Server Error. read ECONNRESET

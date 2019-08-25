@@ -73,16 +73,16 @@
                                     <div>
                                         <div class="user">
                                             <h2 class="field">Key name</h2>
-                                            <input [(ngModel)]="usuario.namekey" #nmaekey="ngModel" type="text" name="namekey" id="namekey" style="width: 50%" />
+                                            <input [(ngModel)]="usuario.namekey" type="text" name="namekey" id="namekey" style="width: 50%" />
                                         </div>
                                         <div class="description">
                                             <h5>Desciption</h5>
-                                            <input [(ngModel)]="usuario.description" #description="ngModel" type="text" name="description" id="description" style="width: 100%" required />
+                                            <input [(ngModel)]="usuario.description" type="text" name="description" id="description" style="width: 100%" required />
 
                                         </div>
                                         <div class="type">
                                             <h5>Type</h5>
-                                            <select [(ngModel)]="usuario.type" #type="ngModel" name="seelct" name="type" id="type" required>
+                                            <select [(ngModel)]="usuario.type" name="seelct" name="type" id="type" required>
                                                         <option value="integer">integer</option>
                                                         <option value="null">null</option>
                                                         <option value="string">string</option>
@@ -91,7 +91,7 @@
                                         </div>
                                         <div class="sensivity">
                                             <h5>Sensitivity</h5>
-                                            <input [(ngModel)]="usuario.sensitivity" #sensitivity="ngModel" type="text" name="sensitivity" id="sensitivity" style="width: 100%" required />
+                                            <input [(ngModel)]="usuario.sensitivity" type="text" name="sensitivity" id="sensitivity" style="width: 100%" required />
                                         </div>
                                     </div>
 
